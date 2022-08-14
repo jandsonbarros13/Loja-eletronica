@@ -4,9 +4,6 @@ import { useState } from "react";
 import Filtros from "./Filtros";
 import Ordenador from "./Ordenador";
 import Itens from './Itens';
-import { ReactComponent as Logo } from "assets/Eletronicos.svg";
-import Menu from "menu/menu";
-
 
 export default function Produtos() {
   const [busca, setBusca] = useState("");
@@ -14,22 +11,13 @@ export default function Produtos() {
   const [ordenador, setOrdenador] = useState("");
   return (
     <main>
-      <div className={styles.contmenu}>
-        <div>
-          <Logo className={styles.logo} />
-        </div>
-        <div>
-          <Menu/>
-        </div>
-      </div>
-
       <header className={styles.header}>
         <div className={styles.header__text}>
           Eletronicos em geral
         </div>
       </header>
       <section className={styles.produtos}>
-        <h3 className={styles.produtos__titulo}>Produtos</h3>
+        <h3 className={styles.produtos__titulo}>Produtos destaque da semana</h3>
         <Buscador busca={busca} setBusca={setBusca} />
         <div className={styles.produtos__filtros}>
           <Filtros filtro={filtro} setFiltro={setFiltro} />

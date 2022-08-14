@@ -1,0 +1,62 @@
+.capa {
+    align-items: center;
+    background-image: url("/assets/trabalhe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 350px;
+    
+}  
+.titulo {
+    color: white;
+    font-size: 3rem;
+}
+.cabecalho{
+	background-color: #f2f5f7;
+	font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+}
+.imagemL{
+	margin: -20px 10px 0px -10px;
+	width: 400px;
+	height: 745px;
+	float:left;
+	background-image: url(../../../assets/trabLat.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.botoescab {
+    box-sizing: content-box;
+	margin: 0 auto;
+}
+.botao {
+    cursor: pointer;
+	color:#0d3878;
+	border-color:#0d3878;
+	font-weight: 700;
+	margin: 20px 20px 20px -5px;
+	border: 1px solid blue;
+	width: 222px;
+	height: 50px;
+	border-radius: 20px;
+}
+.tit {
+    margin: 21px auto;
+    text-align: center;
+}
+.titu {
+    margin: 40px auto;
+    text-align: center;
+}
+.cad {
+    align-items: center;
+}
+.lab {
+    text-align: center;
+    font-size: 2rem;
+}
+.inp {
+    width: 70%;
+    height: 45px;
+}

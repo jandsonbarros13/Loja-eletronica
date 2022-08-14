@@ -1,3 +1,59 @@
-.menu {
+.page {
     align-items: center;
+    text-align: start;
+}
+.capa {
+    background-image: url("/assets/capafale.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.titulo {
+    margin-top: 350px;
+    color: white;
+    font-size: 3rem;
+    margin-left: 150px
+}
+.pagina {
+    text-align: center;
+}
+.ti1{
+    font-size: 3rem;
+}
+.sub {
+    font-size: 1.5rem;
+}
+.contatos {
+    text-align: center;
+    padding: 3vw;
+    position: relative;
+}
+.capital {
+        width: 38%;
+        font-size: 1.5rem;
+        display: inline-block;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+        border: solid 2px rgba(0, 0, 0, 0.5);
+        border-radius: 10%;
+        margin-right: 10px;
+}
+.interior {
+        width: 38%;
+        font-size: 1.5rem;
+        display: inline-block;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+        border: solid 2px rgba(0, 0, 0, 0.5);
+        border-radius: 10%;
+        margin-right: 10px;
+}
+.button {
+    border-radius: 15%;
+    width: 150px;
+    height: 50px;
 }

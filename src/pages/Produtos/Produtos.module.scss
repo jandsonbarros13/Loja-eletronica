@@ -14,22 +14,6 @@
 	font-weight: bold;
 	font-size: 22px;
 }
-.contmenu {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  .li {
-      margin-left: 10px;
-      margin-right: 10px;
-      .a{
-          text-decoration: none;
-          color: #7D8792;
-      }
-  }
-}
 
 .menu {
   height: 90px;
